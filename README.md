@@ -2,7 +2,7 @@
 A modded TriviaBot with much less spam. Works with Classic WotLK.
 
 **
-TriviaBot cannot send messages to public channels unless inside an instance or battleground.
+TriviaBot can only send messages in Say while inside an instance or battleground.
 **
 
 Get quiz packs from TriviaBot`s Curseforge page.
