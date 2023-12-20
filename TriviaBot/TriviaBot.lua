@@ -538,7 +538,9 @@ function TriviaBot.CheckAnswer(player, msg)
 			timeTaken = math.floor(timeTaken * 1 + 0.5) / 1;
 
 			-- Tell player they don't suck as badly as they think they do.
-			if not TB_limit_out then TriviaBot.Send("'".. msg .. L.TB_SEND_CORRECTANSWERQUOTE .. player .. L.TB_SEND_BLANKIN .. timeTaken .. L.TB_SEND_BLANKSECONDS); end
+            		local realmName = GetNormalizedRealmName()
+            		local truncatedPlayerName = string.gsub(player, "%-" .. realmName .. "$", "")
+			if not TB_limit_out then TriviaBot.Send("'".. msg .. L.TB_SEND_CORRECTANSWERQUOTE .. truncatedPlayerName .. L.TB_SEND_BLANKIN .. timeTaken .. L.TB_SEND_BLANKSECONDS); end
 
 			-- Generate personal arrays
 			if (not TB_Game_Scores['Player_Scores'][player]) then
