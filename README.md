@@ -1,5 +1,6 @@
 # Polite TriviaBot
-A modded TriviaBot with much less spam. Works with Classic WotLK.
+A modded TriviaBot with much less spam. 
+Works with Classic and SoD.
 
 **
 TriviaBot can only send messages in Say while inside an instance or battleground.
