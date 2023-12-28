@@ -3,7 +3,7 @@ A modded TriviaBot with much less spam.
 Works with Classic and SoD.
 
 **
-TriviaBot can only send messages in Say while inside an instance or battleground.
+TriviaBot can only send messages in public channels while inside an instance or battleground.
 **
 
 Get quiz packs from TriviaBot`s Curseforge page.
