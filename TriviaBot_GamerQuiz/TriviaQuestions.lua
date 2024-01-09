@@ -293,7 +293,7 @@ TriviaBot_Questions[1]['Answers'][69] = {"Sigmund Freud"};
 TriviaBot_Questions[1]['Category'][69] = 1;
 
 TriviaBot_Questions[1]['Question'][70] = "How many chambers make up the human heart?";
-TriviaBot_Questions[1]['Answers'][70] = {"Four"};
+TriviaBot_Questions[1]['Answers'][70] = {"Four", "4"};
 TriviaBot_Questions[1]['Category'][70] = 1;
 
 TriviaBot_Questions[1]['Question'][71] = "The first vaccine was for which disease?";
